@@ -1,0 +1,23 @@
+header {
+
+  h1 {
+    text-align: center;
+  }
+}
+
+main {
+  display: flex;
+}
+
+.imageRobinHood {
+  width: 100%;
+}
+
+section {
+  padding: 1vw 1vh;
+}
+
+.author {
+  font-style: italic;
+  text-align: right;
+}
