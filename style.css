@@ -1,5 +1,13 @@
-header {
 
+h1,h2,h3,p{
+  margin: 0;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+header {
+  border-bottom: 1px solid #CCC;
   h1 {
     text-align: center;
   }
@@ -14,10 +22,32 @@ main {
 }
 
 section {
-  padding: 1vw 1vh;
+  margin: 10px;
+}
+
+.sectionLeft {
+  flex: 1;
+  border-right: 1px solid #CCC;
+}
+
+.sectionRight {
+  flex: 1;
+  border-left: 1px solid #CCC;
+}
+
+.sectionMiddle{
+  flex: 2;
 }
 
 .author {
   font-style: italic;
   text-align: right;
+}
+
+body {
+  width: 100%;
+}
+
+article{
+  padding: 20px;
 }
